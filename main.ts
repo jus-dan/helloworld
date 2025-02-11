@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.Sad)
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showNumber(randint(0, 9))
